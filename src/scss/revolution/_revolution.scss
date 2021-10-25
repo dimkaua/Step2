@@ -1,0 +1,123 @@
+ body {
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.revolution {
+    padding: 0 10px;
+}
+
+.editor-title {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    color:#635C73;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 18px; 
+} 
+
+.editor-text {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    color:#323232;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.marker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 20px 120px;
+    
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 0px 3px;
+        margin-bottom: 15px;
+    }
+
+    &__link {
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15px;
+        display: inline-flex;
+        align-items: center;
+        color: black;
+        border: 1px solid #d0cfcf;
+        background-color: #f5f3f3;
+        border-radius: 3px 0px 0px 3px;
+        padding: 3px 3px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &__text {
+        padding-left: 2px;
+    }
+
+    &__value {
+        font-family: Lato;
+        border: 1px solid #d0cfcf;
+        border-radius: 0px 3px 3px 0px;
+        background-color: #ffff;
+        padding: 3.5px 4px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15px;
+        cursor: pointer;
+        color: black;
+        align-items: center;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .revolution {
+        padding: 0 10px;
+    }
+
+    .editor-title {
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 33px; 
+    } 
+
+    .editor-text {
+        font-size: 21px;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .revolution {
+        padding: 0 10px;
+    }
+
+    .editor-title {
+        font-size: 54px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 35px; 
+    } 
+
+    .editor-text {
+        font-size: 21px;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+}
+
+
+
